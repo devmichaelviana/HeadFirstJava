@@ -1,21 +1,21 @@
 public class PhraseOMatic {
     public static void main(String[] args) {
-        String[] wordListOne = {"24/7", "várias camadas",
-        "30.000 pés", "B-to-B", "todos ganham", "front-end",
-        "baseado na Web", "difundido", "inteligente", "seis sigma",
-        "caminho crítico", "dinâmico"};
+        String[] wordListOne = {"24/7", "several sheets",
+        "30,000 feet", "B-to-B", "everyone wins", "front-end",
+        "based on Web", "widespread", "smart", "six sigma",
+        "critical path", "dynamic"};
 
-        String[] wordListTwo = {"habilitado", "adesivo",
-        "valor agregado", "orientado", "central", "distribuído",
-        "agrupado", "solidificado", "independente de máquina",
-        "posicionado", "em rede", "dedicado", "alavancado",
-        "alinhado", "destinado", "compartilhado", "cooperativo",
-        "acelerado"};
+        String[] wordListTwo = {"able", "sticker",
+        "added value", "oriented", "central", "distributed",
+        "grouped", "solidified", "machine independent",
+        "positioned", "on web", "dedicated", "leveraged",
+        "aligned", "addressed", "shared", "cooperative",
+        "accelerated"};
 
-        String[] wordListThree = {"processo", "ponto máximo",
-        "solução", "arquitetura", "habilitação no núcleo",
-        "estratégia", "mindshare", "portal", "espaço", "visão",
-        "paradigma", "missão"};
+        String[] wordListThree = {"process", "maximum point",
+        "solution", "architecture", "core qualification",
+        "strategy", "mindshare", "portal", "space", "visionn",
+        "paradigm", "mission"};
 
         int oneLength = wordListOne.length;
         int twoLength = wordListTwo.length;
@@ -27,7 +27,6 @@ public class PhraseOMatic {
 
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
 
-        System.out.println("Precisamos de " + phrase);
-
+        System.out.println("We need to " + phrase);
     }
 }
